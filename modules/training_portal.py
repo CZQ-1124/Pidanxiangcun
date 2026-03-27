@@ -1,4 +1,4 @@
-import json
+ import json
 import uuid
 import streamlit as st
 
@@ -130,3 +130,4 @@ def render(user: dict):
                     'score': float(feedback.get('score', 0) or 0),
                 })
                 render_training_feedback(feedback)
+      
